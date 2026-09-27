@@ -1,0 +1,17 @@
+# Segmentation pipeline. Environment used for the study: Ubuntu 20.04, Python 3.6.13,
+# torch 1.10.2, torchvision 0.11.3, numpy 1.19.2, Pillow 8.3.1, tifffile 2020.9.3,
+# opencv-python 4.7, scipy 1.5.4, openslide-python 1.1.2 (OpenSlide 3.4.1), labelme 5.2.1,
+# NDPITools 1.8.3.
+torch>=1.10
+torchvision>=0.11
+numpy
+scipy
+Pillow
+opencv-python
+matplotlib
+tqdm
+tensorboard
+tifffile
+openslide-python   # needs the OpenSlide C library
+# labelme          # only for json_to_dataset.py
+# ndpisplit (NDPITools) is optional, for slice_wsi.py --backend ndpisplit
