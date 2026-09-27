@@ -10,6 +10,13 @@ that produces the masks (`segmentation/`) and the feature code. It contains no p
 whole-slide images, masks, annotations or model weights. Statistical analyses (agreement, Cox and
 discrimination models) are not included.
 
+## Model weights
+
+The trained tissue-segmentation model weights are available in this
+[Google Drive folder](https://drive.google.com/drive/folders/177Mxl7erOni63530XMX0ZcWiOzd0tA6P?usp=drive_link).
+They are not stored in this repository. Download the weights locally and pass the checkpoint path
+to `segmentation/predict_tiles.py` using `--weights` (see `segmentation/README.md`).
+
 ## Pipeline
 
 | Step | Code | Output |
